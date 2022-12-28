@@ -1,0 +1,181 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  font-family: "Roboto";
+  box-sizing: border-box;
+  padding: 0px;
+}
+.container {
+    
+  background-color: #FFFFFF;
+  width: 1440px;
+  
+  padding: 91px 150px 173px 124px;
+}
+main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.head {
+  width: 365px;
+  color: black;
+  height: 93px;
+  font-weight: 700;
+  font-size: 55px;
+  line-height: 55.76px;
+}
+.article {
+  width: 662px;
+  height: 374px;
+  font-size: 24px;
+  line-height: 36px;
+}
+.foto {
+  width: 314px;
+  height: 315px;
+}
+.foot {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.sekil {
+  width: 232px;
+  height: 203px;
+}
+
+.head2 {
+  width: 150px;
+  height: 39px;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 32.5px;
+}
+.paraqraf,
+.paraqraf_two {
+  width: 150px;
+  height: 39px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 23.4px;
+}
+/*.ellipse {
+    position: absolute;
+    left: 950px;
+    top: 511px;
+  background-color: #EFEFEF;;
+  width: 366px;
+  height: 59px;
+  
+  border-radius: 50%;
+}*/
+@media (max-width: 830px) {
+  .container {
+    width: 830px;
+    box-sizing: border-box;
+    background-color: #e5e5e5;
+    padding: 56px 86.69px 180.5px 72px;
+  }
+  .head {
+    width: 211.4px;
+    color: black;
+    height: 53.86px;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 32.44px;
+  }
+  .article {
+    width: 383.41px;
+    height: 216.61px;
+    font-size: 14px;
+    line-height: 21px;
+  }
+  .foto {
+    width: 181.86px;
+    height: 182.44px;
+  }
+  .head2 {
+    width: 86.88px;
+    height: 22.59px;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 19.5px;
+  }
+  .paraqraf {
+    width: 86.88px;
+    height: 22.59px;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 14.3px;
+  }
+  .paraqraf_two {
+    width: 108px;
+    height: 23px;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 14.3px;
+  }
+
+  .img {
+    display: none;
+  }
+  .foot {
+    width: 369.51px;
+  }
+}
+
+@media (max-width: 375px) {
+  .container {
+    width: 375px;
+    box-sizing: border-box;
+    background-color: #e5e5e5;
+    padding: 56px 30.53px 124px 35px;
+  }
+
+  .head {
+    width: 170.8px;
+    color: black;
+    height: 43.34px;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 26.36px;
+  }
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .article {
+    width: 308.47px;
+    height: 174.27px;
+    font-size: 12px;
+    line-height: 18px;
+  }
+  .foto {
+    width: 170.55px;
+    height: 160.29px;
+  }
+  .head2 {
+    width: 69.9px;
+    height: 18.17px;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 15.6px;
+  }
+  .paraqraf,
+  .paraqraf_two {
+    height: 18px;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 13px;
+  }
+
+  .img {
+    display: none;
+  }
+  .foot {
+    width: 245px;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+}
